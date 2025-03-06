@@ -62,7 +62,7 @@ def whoami_name(name):
 
 if __name__ == '__main__':
     app.run()
-Créez un fichier test_main.py qui va contenir les tests unitaires de notre API:
+#Créez un fichier test_main.py qui va contenir les tests unitaires de notre API:
 
 import unittest
 from app import app
