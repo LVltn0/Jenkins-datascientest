@@ -27,15 +27,6 @@ pipeline {
             }
           }
         }
-          stage('User Acceptance') {
-    input {
-        message "Proceed to push to main?"
-        ok "Yes"
-    }
-    steps {
-        echo "User approved deployment"
-    }
-}
           stage('Pushing and Merging'){
             parallel {
                 stage('Pushing Image') {
